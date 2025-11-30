@@ -10,7 +10,8 @@ import {
   ExternalLink, 
   ChevronDown,
   Terminal,
-  Zap
+  Zap,
+  Github
 } from "lucide-react";
 import { portfolioData } from "@/data";
 import { Button } from "@/components/ui/button";
@@ -276,6 +277,11 @@ export default function Home() {
             <Button variant="ghost" size="icon" className="hover:text-primary hover:bg-primary/10 rounded-full">
               <Mail className="w-5 h-5" />
             </Button>
+            <a href="https://github.com/lapolous21-cpu" target="_blank" rel="noopener noreferrer">
+              <Button variant="ghost" size="icon" className="hover:text-primary hover:bg-primary/10 rounded-full">
+                <Github className="w-5 h-5" />
+              </Button>
+            </a>
             <Button variant="ghost" size="icon" className="hover:text-primary hover:bg-primary/10 rounded-full">
               <ExternalLink className="w-5 h-5" />
             </Button>
