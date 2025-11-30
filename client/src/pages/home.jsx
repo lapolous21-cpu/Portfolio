@@ -50,7 +50,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
           <div className="font-display font-bold text-xl tracking-tighter flex items-center gap-2">
             <Terminal className="w-5 h-5 text-primary" />
-            <span className="hidden sm:inline">Technician.dev</span>
+            <span className="hidden sm:inline">Oussama Lapointe</span>
           </div>
           <div className="flex items-center gap-6 text-sm font-medium text-muted-foreground">
             <button onClick={() => scrollToSection('about')} className="hover:text-primary transition-colors">About</button>
@@ -266,7 +266,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6 text-center">
           <div className="flex items-center justify-center gap-2 font-display font-bold text-2xl mb-6">
             <Terminal className="w-6 h-6 text-primary" />
-            <span>Technician.dev</span>
+            <span>Oussama Lapointe</span>
           </div>
           <p className="text-muted-foreground mb-8">
             Passionate about electronics, robotics, and creating reliable systems.
