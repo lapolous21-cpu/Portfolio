@@ -36,7 +36,7 @@ const staggerContainer = {
 };
 
 export default function Home() {
-  const scrollToSection = (id: string) => {
+  const scrollToSection = (id) => {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });

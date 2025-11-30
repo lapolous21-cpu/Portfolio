@@ -1,36 +1,4 @@
-export interface Education {
-  institution: string;
-  degree: string;
-  field: string;
-  start_date: string;
-  end_date: string;
-}
-
-export interface Experience {
-  title: string;
-  company: string;
-  employment_type: string;
-  start_date: string;
-  end_date: string;
-  location: string;
-  work_mode: string;
-  skills?: string[];
-}
-
-export interface Project {
-  name: string;
-  description: string;
-}
-
-export interface PortfolioData {
-  about: string;
-  education: Education[];
-  experience: Experience[];
-  projects: Project[];
-  social_media: string;
-}
-
-export const portfolioData: PortfolioData = {
+export const portfolioData = {
   "about": "I work as a technician and am passionate about the field.",
   "education": [
     {
