@@ -4,10 +4,8 @@ import {
   Briefcase, 
   GraduationCap, 
   Cpu, 
-  Mail, 
   MapPin, 
   Calendar, 
-  ExternalLink, 
   ChevronDown,
   Terminal,
   Zap,
@@ -275,9 +273,6 @@ export default function Home() {
           </p>
           <div className="flex justify-center gap-6">
             {/* Placeholder social links since data was empty, but UI needs them */}
-            <Button variant="ghost" size="icon" className="hover:text-primary hover:bg-primary/10 rounded-full">
-              <Mail className="w-5 h-5" />
-            </Button>
             <a href="https://github.com/lapolous21-cpu" target="_blank" rel="noopener noreferrer">
               <Button variant="ghost" size="icon" className="hover:text-primary hover:bg-primary/10 rounded-full">
                 <Github className="w-5 h-5" />
@@ -288,9 +283,6 @@ export default function Home() {
                 <Linkedin className="w-5 h-5" />
               </Button>
             </a>
-            <Button variant="ghost" size="icon" className="hover:text-primary hover:bg-primary/10 rounded-full">
-              <ExternalLink className="w-5 h-5" />
-            </Button>
           </div>
           <div className="mt-12 text-sm text-muted-foreground/60">
             © {new Date().getFullYear()} Portfolio. All rights reserved.
